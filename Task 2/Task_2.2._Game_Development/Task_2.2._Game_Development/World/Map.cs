@@ -10,10 +10,17 @@ namespace Task_2._2._Game_Development
     //class map должен иметь размещения
     public class Map
     {
+        private readonly Point spawnPoint;
+
+        public Map(Point spawnPoint)
+        {
+            this.spawnPoint = spawnPoint;
+        }
+
         public Player? Player { get; private set; } //можно init проверка: сущность будет указана в конструкторе или инициализаторе класса при создании экземпляра
 
         //public Zombie Zombie { get; private set; } //если зомби 1 на карте
-        public List<Zombie> Zombies { get; private set; }
+        public List<Zombie> Zombies { get; private set; } //несколько зомбаков
         public Map()
         {
             Zombies = new List<Zombie>();
@@ -24,7 +31,7 @@ namespace Task_2._2._Game_Development
         {
             Player = new Player(spawnPoint);
         }
-        public void InstantianteZombie() //появляется зомби на карте - нужно вызывать этот метод
+        public void InstantianteZombie(Point point) //появляется зомби на карте - нужно вызывать этот метод
         {
             Zombies.Add(new Zombie(spawnPoint));
         }

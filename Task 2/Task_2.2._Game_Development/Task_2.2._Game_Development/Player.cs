@@ -9,6 +9,8 @@ namespace Task_2._2._Game_Development
 {
     public class Player : MovableObject
     {
+        public int Health = 100;
+
         public Player(Point spawnPoint) : base(spawnPoint) //конструктор принимает точку появления игрока
         {
             
@@ -17,6 +19,8 @@ namespace Task_2._2._Game_Development
         {
             
         }
+
+       
 
         public override string ToString() // переопределение Player  к строке для вывода в Map
         {
