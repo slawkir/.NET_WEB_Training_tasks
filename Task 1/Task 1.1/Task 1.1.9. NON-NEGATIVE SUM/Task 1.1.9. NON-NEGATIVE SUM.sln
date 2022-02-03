@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 1.1.9. NON-NEGATIVE SUM", "Task 1.1.9. NON-NEGATIVE SUM\Task 1.1.9. NON-NEGATIVE SUM.csproj", "{BAF6F1B4-76C1-49AE-A6BF-C110D6F3494B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAF6F1B4-76C1-49AE-A6BF-C110D6F3494B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF6F1B4-76C1-49AE-A6BF-C110D6F3494B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF6F1B4-76C1-49AE-A6BF-C110D6F3494B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF6F1B4-76C1-49AE-A6BF-C110D6F3494B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A12A9D3-2B98-47FB-8377-5FAC1D9619FC}
+	EndGlobalSection
+EndGlobal
