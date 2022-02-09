@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.1. WEAKEST LINK", "Task_3.1._Weakest_Text\3.1.1. WEAKEST LINK.csproj", "{B35FD871-BC99-450F-A6E4-EE7AFF04BDF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1.2. TEXT ANALYSIS", "3.1.2. TEXT ANALYSIS\3.1.2. TEXT ANALYSIS.csproj", "{9B2C6625-F515-4E7A-A8E9-3C0828C1B3B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B35FD871-BC99-450F-A6E4-EE7AFF04BDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35FD871-BC99-450F-A6E4-EE7AFF04BDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35FD871-BC99-450F-A6E4-EE7AFF04BDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35FD871-BC99-450F-A6E4-EE7AFF04BDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B2C6625-F515-4E7A-A8E9-3C0828C1B3B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B2C6625-F515-4E7A-A8E9-3C0828C1B3B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B2C6625-F515-4E7A-A8E9-3C0828C1B3B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B2C6625-F515-4E7A-A8E9-3C0828C1B3B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3464B860-FF07-4C5B-BFD8-35B4CCAA0702}
+	EndGlobalSection
+EndGlobal
