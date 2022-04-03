@@ -1,0 +1,23 @@
+.menu {
+  width: 200px;
+  background-color: rgb(250, 225, 111);
+  border: solid 2px grey;
+  border-radius: 10px;
+  box-shadow: 10px 5px 1px brown;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.option {
+  list-style: none;
+  color: brown;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: -30px;
+  margin-right: 10px;
+
+}
+
+.option:last-child {
+  margin-bottom: 10px;
+}
