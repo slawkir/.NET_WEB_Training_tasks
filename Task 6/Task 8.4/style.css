@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(37, 85, 130);
+}
+
+.container {
+  padding-top: ;
+  margin: 30px auto auto;
+  width: 1200px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 15px 30px 30px rgb(15, 33, 50);
+  border: 15px solid white;
+}
+
+.block {
+  width: 33.3%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 2px solid lightgray;
+}
+
+.block:last-child {
+  border-right: none;
+}
+
+img {
+  width: 90px;
+}
+
+button {
+  width: 30%;
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 8px 0;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+h2 {
+  color: orangered;
+}
+
+.element {
+  margin-top: 5px;
+}
+
+.element:last-child {
+  margin-bottom: 10px;
+}
